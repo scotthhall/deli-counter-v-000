@@ -30,6 +30,7 @@ def now_serving(array)
   if line_number == 0
     puts "There is nobody waiting to be served!"
   elsif line_number > 0
+    puts "Currently serving #{array[0]}"
     array.shift
     puts array
   end

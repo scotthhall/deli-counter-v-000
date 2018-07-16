@@ -9,6 +9,6 @@ def line(array)
       line_list << person.prepend("#{x}. ")
       x += 1
     end
-    puts "The line is currently: #{line_list.join}."
+    puts "The line is currently: #{line_list.join(" ")}."
   end
 end

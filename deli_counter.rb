@@ -22,6 +22,5 @@ def take_a_number(array, name)
     array << name
     x = array.count
       puts "Welcome, #{name}. You are number #{x} in line."
-    end
   end
 end

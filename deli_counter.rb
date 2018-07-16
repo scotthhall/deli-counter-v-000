@@ -22,7 +22,7 @@ def take_a_number(array, name)
   elsif line_number > 0
     array << name
     array.each do |person|
-      puts "Welcome, #{person}. You are #{x} in line."
+      puts "Welcome, #{person}. You are number #{x} in line."
     end
   end
 end

@@ -24,3 +24,10 @@ def take_a_number(array, name)
       puts "Welcome, #{name}. You are number #{x} in line."
   end
 end
+
+def now_serving(array)
+  line_number = array.count
+  if line_number == 0
+    puts "There is nobody waiting to be served!"
+  end
+end

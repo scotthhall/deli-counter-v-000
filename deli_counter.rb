@@ -21,8 +21,8 @@ def take_a_number(array, name)
     puts "Welcome, #{name}. You are number 1 in line."
   elsif line_number > 0
     array << name
-    array.each do |person|
-      puts "Welcome, #{person}. You are number #{x} in line."
+    x = array.count
+    puts "Welcome, #{name}. You are number #{x} in line."
     end
   end
 end

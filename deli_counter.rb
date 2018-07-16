@@ -29,5 +29,8 @@ def now_serving(array)
   line_number = array.count
   if line_number == 0
     puts "There is nobody waiting to be served!"
+  elsif line_number > 0
+    array.shift
+    puts array
   end
 end

@@ -23,7 +23,6 @@ def take_a_number(array, name)
     array << name
     array.each do |person|
       puts "Welcome, #{person}. You are #{x} in line."
-      x += 1
     end
   end
 end

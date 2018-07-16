@@ -32,6 +32,5 @@ def now_serving(array)
   elsif line_number > 0
     puts "Currently serving #{array[0]}."
     array.shift
-    puts array
   end
 end

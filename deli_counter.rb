@@ -19,4 +19,3 @@ def take_a_number(array, name)
     array << name
   end
 end
-
